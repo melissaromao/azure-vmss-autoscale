@@ -10,3 +10,13 @@ Praticando VMSS (virtual machine scale sets) com Azure.
 
 > [!IMPORTANT]
 > A **elasticidade** é a capacidade do Azure de **aumentar ou diminuir** recursos automaticamente conforme a demanda flutua. Já a **mensurabilidade** é toda ação **monitorada e cobrada** com base no consumo real.
+
+## 📌 Passo a Passo
+
+### Criar Grupo de Recursos
+> [!NOTE]
+> Um **grupo de recursos** é um contêiner lógico que agrupa recursos relacionados, como máquinas virtuais, bancos de dados, redes e entre outros, para uma solução específica.
+
+```
+az group create --name <rg-name> --location <location>
+```
